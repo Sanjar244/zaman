@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Zaman.kg</title>
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <header class="main_header" data-aos="fade-down" data-aos-duration="1000">
+        <div class="logo" data-aos="zoom-in" data-aos-delay="200">
+          <img src="./images/ChatGPT Image 28 июля 2025 г., 15_01_18 (1).png" alt="Zaman Academy Logo" />
+        </div>
+        <div class="wrapper">
+          <div class="search" data-aos="fade-right" data-aos-delay="300">
+            <input type="text" class="search__input" placeholder="Type your text" aria-label="Search" />
+            <button class="search__button" aria-label="Search Button">
+              <svg class="search__icon" viewBox="0 0 24 24">
+                <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 
+                4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385
+                -.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 
+                3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 
+                7.5-7.5-3.365-7.5-7.5z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="main_button" data-aos="fade-left" data-aos-delay="400">
+            <button>Register</button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <hr>
+    <div class="section">
+      <nav>
+        <img src="./images/0d653715764792e8760617fbf77e7407.jpg" alt="Hero Background" />
+      </nav>
+      <div class="container">
+        <section class="hero" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+          <h1>Прокачай <span>Английский</span> и <span>YouTube</span> с нуля</h1>
+          <p>Авторский курс от Zaman Academy. Практика. Контент. Результат.</p>
+          <a href="#buy" class="cta-button">Начать сейчас</a>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://i.pinimg.com/1200x/c5/c7/2e/c5c72ee3a17843a7f6411574d33e45f8.jpg" alt="Image 1" />
+          <h3>Карточка 1</h3>
+          <p>Описание первого слайда</p>
+        </div>
+        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://i.pinimg.com/1200x/c5/c7/2e/c5c72ee3a17843a7f6411574d33e45f8.jpg" alt="Image 2" />
+          <h3>Карточка 2</h3>
+          <p>Описание второго слайда</p>
+        </div>
+        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://i.pinimg.com/1200x/c5/c7/2e/c5c72ee3a17843a7f6411574d33e45f8.jpg" alt="Image 3" />
+          <h3>Карточка 3</h3>
+          <p>Описание третьего слайда</p>
+        </div>
+        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://i.pinimg.com/1200x/c5/c7/2e/c5c72ee3a17843a7f6411574d33e45f8.jpg" alt="Image 4" />
+          <h3>Карточка 4</h3>
+          <p>Описание четвертого слайда</p>
+        </div>
+        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://i.pinimg.com/1200x/c5/c7/2e/c5c72ee3a17843a7f6411574d33e45f8.jpg" alt="Image 5" />
+          <h3>Карточка 5</h3>
+          <p>Описание пятого слайда</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <div class="news-section">
+    <h2>Новости и события</h2>
+    <div class="news-row">
+      <div class="news-track scroll-left" id="row1">
+        <!-- Автоматически добавляемые карточки -->
+      </div>
+    </div>
+    <div class="news-row">
+      <div class="news-track scroll-right" id="row2">
+        <!-- Автоматически добавляемые карточки -->
+      </div>
+    </div>
+    <div class="news-row">
+      <div class="news-track scroll-left" id="row3">
+        <!-- Автоматически добавляемые карточки -->
+      </div>
+    </div>
+  </div>
+  <button id="toTop" aria-label="Back to top">
+    <svg height="55px" width="50px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+      <path d="M222.138,91.475l-89.6-89.6c-2.5-2.5-6.551-2.5-9.051,0l-89.6,89.6c-2.5,2.5-2.5,6.551,0,9.051s6.744,2.5,9.244,0L122,21.85V249.6c0,3.535,2.466,6.4,6,6.4s6-2.865,6-6.4V21.85l78.881,78.676c1.25,1.25,2.992,1.875,4.629,1.875s3.326-0.625,4.576-1.875C224.586,98.025,224.638,93.975,222.138,91.475z"/>
+    </svg>
+  </button>
+  <footer class="footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <h2>Zaman Academy</h2>
+        <p>Платформа для изучения английского и продвижения YouTube. Прокачай себя с нами!</p>
+      </div>
+      <div class="footer__nav">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Курсы</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <h4>Мы в соцсетях</h4>
+        <div class="social-icons">
+          <a href="https://wa.me/996558909104"><img src="./images/WhatsApp.svg.webp" alt="Whatsapp" /></a>
+          <a href="https://t.me/zamankg2025"><img src="./images/icons8-телеграм-96.png" alt="Telegram" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Zaman Academy — Все права защищены</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./index.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
